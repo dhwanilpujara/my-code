@@ -1,0 +1,95 @@
+<HTML>
+	<HEAD>
+	
+		<TITLE>VSITR</TITLE>
+		<style>
+		*{
+		padding: 0;
+		margin: 0;
+		}
+			body{
+			background-image:url("SAG_1229-1.jpg");
+			background-size:cover;
+			background-position:center;
+			box-sizing: border-box;
+			font-family:sans-serif;
+			}
+			.class1{
+			background: rgb(0,100,0);
+			text-align:center;
+			}
+			.class1 ul{
+			display: inline-flex;
+			list-style: none;
+			color: #fff;
+			}
+			.class1 ul li{
+			width: 120px;
+			margin: 15px;
+			padding: 15px;
+			}
+			.class1 ul li a{
+			text-decoration: none;
+			color: #fff;
+			}
+			.submenu{
+			display: none;
+			}
+			.active, .class1 ul li:hover{
+			background: #2bab0d
+			border-radius: 3px;
+			}
+			.class1 ul li:hover .submenu{
+			display: block;
+			position: absolute;
+			background: rgb(0,100,0);
+			margin-top: 15px;
+			margin-left: -15px;
+			
+			}
+			.class1 ul li:hover .submenu ul{
+			display: block;
+			margin: 10px
+			
+			}
+			.class1 ul li:hover .submenu ul li{
+			width:150px;
+			padding:10px;
+			border-bottom: 1px dotted #fff;
+			background:transparent;
+			border-radius:0;
+			text-align:left;
+			}
+			.class1 ul li:hover .submenu ul li:last-child{
+			border-bottom: none;
+			}
+			.class1 ul li:hover .submenu ul li a:hover{
+			color: #b2ff00;
+			}
+			</style>
+		<H1 align="center" style="background-color:red" >VSITR COLLEGE</H1>
+	</HEAD>
+		<BODY>
+		
+		<div class="class1">
+			<ul>
+				<li>About Us </li>
+				<li class="active"><a href="#">Department</a>
+				<div class="submenu">
+					<ul>
+						<li><a href="#">Mechanical Engineering</a></li>
+						<li><a href="#">Civil Engineering</a></li>
+						<li><a href="#">Computer Science Engineering</a></li>
+						<li><a href="#">Computer Engineering</a></li>
+						<li><a href="#">Information Technology Engineering</a></li>
+					</ul>
+					</div>
+				</li>
+				<li>Faculty</li>
+				<li>Research</li>
+				<li>Placement</li>
+				<li>Contact Us</li>
+			</ul>
+		</div>
+		</BODY>
+</HTML>
