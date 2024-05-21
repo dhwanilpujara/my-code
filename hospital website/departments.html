@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hospital Departments</title>
+    <style>
+        
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        .department-list {
+            list-style-type: none;
+            padding: 0;
+        }
+
+            .department-list li {
+                margin-bottom: 10px;
+            }
+
+        .department-link {
+            display: block;
+            padding: 10px;
+            background-color: #f0f0f0;
+            text-decoration: none;
+            color: #333;
+            transition: background-color 0.3s;
+        }
+
+            .department-link:hover {
+                background-color: #ccc;
+            }
+
+        .search-box {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .search-input {
+            padding: 5px;
+            width: 300px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+
+        .search-button {
+            padding: 5px 10px;
+            background-color: #4caf50;
+            color: #fff;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Hospital Departments</h1>
+
+    <div class="search-box">
+        <input type="text" id="searchInput" class="search-input" placeholder="Search departments...">
+        <button onclick="searchDepartments()" class="search-button">Search</button>
+    </div>
+
+    <ul class="department-list">
+        <li><a class="department-link" href="cardiology.html">Cardiology</a></li>
+        <li><a class="department-link" href="neurology.html">Neurology</a></li>
+        <li><a class="department-link" href="pediatrics.html">Pediatrics</a></li>
+        <li><a class="department-link" href="orthopedics.html">Orthopedics</a></li>
+        <li><a class="department-link" href="Obstetrics and Gynecology.html">Obstetrics and Gynecology</a></li>
+        <li><a class="department-link" href="Emergency Medicine.html">Emergency Medicine</a></li>
+                
+</ul>
+
+    
+</body>
+</html>
