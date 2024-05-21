@@ -1,0 +1,73 @@
+<!DOCTYPE HTML>
+<HTML>
+	<head>
+	<title>TABLE BOOKING FORM</title>
+	<h1 align="center">TABLE BOOKING FORM </h1>
+	</head>
+		<body style="background-color:blue">
+			<table align="center" style="border: 5px solid powderblue;padding: 30px;font-family: verdana;font-size: 120%;">
+				<form action="C:\Users\hp\Desktop\INTERNSHIP\CONFIRM BOOKING.HTML" method="post">
+					<tr>
+						<td>
+						<label for="fname">First name:</label>
+						</td>
+						<td>
+						<input type="text" id="fname" name="fname" required><br>
+						</td>
+					</tr>
+					<tr>
+						<td>
+						<label for="lname">Last name:</label>
+						</td>
+						<td>
+						<input type="text" id="lname" name="lname" required><br>
+						</td>
+					</tr>
+					<tr>
+						<td>
+						<label for="booktime">Select Date And Time:</label>
+						</td>
+						<td>
+						<input type="datetime-local" id="boooktime" name="booktime" required><br>
+						</td>
+					</tr>
+					<tr>
+						<td>
+						<label for="totalguests">Enter number of guests:</label>
+						</td>
+						<td>
+						<input type="number" min="1" id="totalguests" name="totalguests" required><br>
+						</td>
+					</tr>
+					<tr>
+						<td>
+						<label for="phone">Enter your phone number:</label>
+						</td>
+						<td>
+						<input type="tel" id="phone" name="phone" pattern="[0-9]{10}" required><br>
+						</td>
+					</tr>
+					<tr>
+						<td>
+						<label for="email">Enter your email id:</label>
+						</td>
+						<td>
+						<input type="email" id="phone" name="email" required>
+						</td>
+					</tr>
+					<tr>
+						<td>
+						<input type="checkbox" id="confirmation" name="confirmation" value="book" required>
+						
+						<label for="confirmation">Do you want to Confirm table booking? <br> NO CANCELLATION WILL BE DONE</label><br>
+						</td>
+					</tr>
+					<tr>
+						<td>
+						<input type="submit" value="Submit">
+						</td>
+					</tr>
+			</table>
+				</form>
+		</body>
+</HTML>
