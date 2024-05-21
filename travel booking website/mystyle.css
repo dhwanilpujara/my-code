@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin:0;
+}
+.menu{
+    padding: 13px 0px 24px 56px;
+    margin:auto;
+    background-color: aqua;
+    
+
+
+}
+.menu a 
+{
+    display: black;
+    text-decoration: none;
+    
+    padding: 0 0 0 79px;
+}
+.goa
+{
+    width: 791px;
+    height: 1024px;
+    padding-right: 0px;
+    margin-right: 49px;
+}
+.shimla
+{
+    height: 790px;
+    width: 563px;
+    
+}
+.trips h2
+{
+    background-color: beige;
+    color: blue;
+    margin: 0px -78px 8px -247px;
+}
+.menu input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+    margin: 66px 175px 28px 8px;
+    width: 352px;
+    
+    border: 1px solid;
+}
+
+  .thailand
+  {
+    float: right;
+    height: 500px;
+    width: 392px;
+  }
+  .sectionthai
+  {
+    margin: -1752px 236px 18px 76px;
+  
+  }
