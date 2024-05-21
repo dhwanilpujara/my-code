@@ -1,0 +1,119 @@
+nav a{
+    
+    color: azure;
+    
+    display: block;
+    float: left;
+    text-decoration: none;
+    margin: 16px 96px 16px 80px;
+    padding: 3px 18px 29px 0px;
+    
+}
+nav{
+    background-color: blue;
+    position: fixed;
+}
+body{
+    margin: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+    background-image: url("Community-PNG-Clipart-Background.png"), linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(158,0,255,1) 0%);
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    
+}
+nav a:hover{
+    color:brown
+}
+section{  
+    border:1px solid pink;  
+    padding:0px;  
+    margin:0px;  
+    } 
+    div
+    {
+        
+       float: right; 
+       margin: 15% 15% 15% 15%;
+        margin-left: 500px;
+        display: inline;
+       
+        
+    
+
+}
+  div h2
+  {
+    margin: -104px -206px 0px 638px;
+    border-top: 2px solid black;
+        border-bottom: 2px solid black;
+  }
+  div p{
+    margin: -1px -207px 4px 638px;
+    border-top: 2px solid black;
+        border-bottom: 2px solid black;
+  }
+  div h2 a
+  {
+    display: white;
+    text-decoration: none;
+  }
+  .arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+  }
+  
+  .right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+  }
+  .div2
+    {
+        
+       float: right; 
+       margin: -12% 14% -4% -6%;
+        margin-left: 500px;
+        display: inline;
+       
+        
+    
+
+}
+.h2div2
+{
+  margin: 9px -188px -2px 636px;
+    border-top: 2px solid black;
+        border-bottom: 2px solid black;
+}
+.pdiv2
+{
+  margin: -2px -190px 15px 636px;
+  border-top: 2px solid black;
+      border-bottom: 2px solid black;
+}
+.div3
+    {
+        
+       float: left; 
+       margin: -15% 14% -5% -8%;
+        margin-left: 500px;
+        display: inline;
+       
+        
+    
+
+}
+.h2div3
+{
+  margin: -7px 946px -1px -485px;margin: -7px 946px -1px -485px;
+    border-top: 2px solid black;
+        border-bottom: 2px solid black;
+}
+.pdiv3
+{
+  margin: -2px 944px 23px -484px;
+  border-top: 2px solid black;
+      border-bottom: 2px solid black;
+}
