@@ -1,0 +1,113 @@
+/* Reset default margin and padding */
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Full-page height */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+}
+
+#map {
+    flex: 1; /* Fill remaining vertical space */
+    min-height: 100vh;
+    position: relative; /* Set the map container as the reference for absolute positioning */
+    z-index: 0; /* Ensure the map appears below other elements */
+}
+
+/* Position elements over the map container */
+@media only screen and (min-width: 640px){
+#search-bar, .nav-buttons, .user-actions, .livelocate, #routingform {
+    position: absolute;
+    transform: translateX(-50%);
+}
+
+#search-bar {
+    top: 10px; /* Adjust top position to move search bar down */
+    z-index: 1;
+    left: 50%;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+}
+#searchbarin{
+    width:25vw;
+    height: 4vh;
+}
+
+.nav-buttons {
+    top: 0;
+    left:0; /* Add some left padding */
+    z-index: 1;
+    transform: translateX(2px);
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh;
+    width: 12vw;
+}
+
+.nav-buttons button {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    margin-top:10px;
+    margin-bottom: 20px;
+}
+
+.user-actions {
+    top: 10px; /* Adjust top position to move user-actions up */
+    right: 20px; /* Adjust right position to place on the right side of the search bar */
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+}
+
+.user-actions button {
+    background-color: transparent;
+    margin-left: 3px;
+    border: 0.1em solid rgb(0,0,0);
+    color: rgb(0,0,0);
+    cursor: pointer;
+    
+}
+.livelocate{
+    top:50px;
+    right:20px;
+    z-index: 1;
+    background-color: transparent;
+}
+.livelocate button{
+    background-color: transparent;
+    cursor: pointer;
+}
+#routingform{
+    top: 10px; 
+    z-index: 1;
+    left: 50%;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+}
+#cabformfilter{
+    top: 0;
+    left:0; /* Add some left padding */
+    z-index: 1;
+    transform: translateX(2px);
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh;
+    width: 12vw;
+}
+}
